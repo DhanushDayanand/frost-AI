@@ -3,7 +3,7 @@ from datetime import datetime
 from openai import OpenAI
 
 # Initialize client
-client = OpenAI()
+client = OpenAI(api_key="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")
 
 SYSTEM_PROMPT = """
 You are a scheduling assistant.
