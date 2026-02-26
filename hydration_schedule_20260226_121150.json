@@ -1,0 +1,21 @@
+{
+    "task": "hydration",
+    "active_window": {
+        "start": "09:00",
+        "end": "17:00"
+    },
+    "hydration_timer": {
+        "enabled": true,
+        "interval_minutes": 45,
+        "start_time": "09:00",
+        "end_time": "17:00",
+        "alert_message": "Time to drink water \ud83d\udca7"
+    },
+    "exclusions": [
+        {
+            "label": "Lunch break",
+            "start": "13:00",
+            "end": "14:00"
+        }
+    ]
+}
